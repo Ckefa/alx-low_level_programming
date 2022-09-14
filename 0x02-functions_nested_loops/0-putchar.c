@@ -1,5 +1,5 @@
-#include <stdio.h>
-/*
+#include <stdio.h>        
+/*    
  *putchar
  *am increasing the size of description
  */
