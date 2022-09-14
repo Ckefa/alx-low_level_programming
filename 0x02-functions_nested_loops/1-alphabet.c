@@ -1,7 +1,9 @@
-#include "main.h"
+#include "main.h""
 
 /**
- * print the alphabets
+ * my project
+ *
+ * print_alphabet - print the alphabets
  *
  * Return 0.
  */
