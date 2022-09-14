@@ -1,11 +1,9 @@
-#include "main.h"
+#include "main.h""
 
 /**
- * my project
- *
  * print_alphabet - print the alphabets
  *
- * Return 0.
+ *Description: prints 10 times the alphabet, in lowercase
  */
 
 void print_alphabet(void)
