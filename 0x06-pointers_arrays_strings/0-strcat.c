@@ -1,11 +1,23 @@
 #include <stdio.h>
 /**
+ * _strcat - this function concats two string
+ *
+ * @dest: destination string; src string is appended to it
+ *
+ * @src: Source string; gets appended to dest string
+ *
+ * Return: Concatenated string
+ */
+char *_strcat(char *dest, char *src)
+{
+return (strcat(dest, src));
+}
+/**
  * main - The main function of the program
  * it controls other functions
  *
  * Return: Always 0
  */
-char *_strcat(char *dest, char *src);
 int main(void)
 {
 char s1[98] = "Hello ";
@@ -22,18 +34,5 @@ printf("%s", s2);
 printf("%s", ptr);
 
 return (0);
-}
-/**
- * _strcat - this function concats two string
- *
- * @dest: destination string; src string is appended to it
- *
- * @src: Source string; gets appended to dest string
- *
- * Return: Concatenated string
- */
-char *_strcat(char *dest, char *src)
-{
-return (strcat(dest, src));
 }
 
