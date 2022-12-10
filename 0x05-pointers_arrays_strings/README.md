@@ -1,3 +1,1 @@
-   # Pointers, Arrays & Strings
-project
-clinton
+# Pointers, Arrays and Strings in C

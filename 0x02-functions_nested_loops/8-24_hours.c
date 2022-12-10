@@ -2,25 +2,25 @@
 
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- *
- * Return: Always 0.
+ * starting from 00:00 to 23:59
  */
-
 void jack_bauer(void)
 {
-	int hr;
-	int min;
-
-	for (hr = 0; hr < 24; hr++)
-	{
-		for (min = 0; min < 60; min++)
-		{
-			_putchar((hr / 10) + '0');
-			_putchar((hr % 10) + '0');
-			_putchar(':');
-			_putchar((min / 10) + '0');
-			_putchar((min % 10) + '0');
-			_putchar('\n');
-		}
-	}
+int i, j;
+i = 0;
+while (i < 24)
+{
+j = 0;
+while (j < 60)
+{
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
+_putchar(':');
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
+_putchar('\n');
+j++;
+}
+i++;
+}
 }
